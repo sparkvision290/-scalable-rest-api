@@ -1,3 +1,59 @@
+# 🚀 Scalable REST API with Authentication & RBAC
+
+A full-stack application built using **Node.js, Express, MongoDB, JWT authentication, role-based access control (RBAC)**, and a **React frontend** for testing and interacting with APIs.
+
+---
+
+## 📌 Features
+
+### 🔐 Authentication & Authorization
+- User registration & login
+- Secure password hashing using bcrypt
+- JWT-based authentication
+- Role-Based Access Control (USER / ADMIN)
+
+---
+
+### 🛡️ Role-Based Access
+
+**USER**
+- Create, view, update, and delete own tasks
+
+**ADMIN**
+- View all users’ tasks
+- Delete any task
+- Access Admin Panel in UI
+
+---
+
+### 📝 Task Management (CRUD)
+- Create tasks
+- Fetch logged-in user’s tasks
+- Update task (owner only)
+- Delete task (owner only)
+- Admin override for tasks
+
+---
+
+### 🗄️ Database
+- MongoDB with Mongoose
+- Persistent storage
+- User & Task schema relationships
+
+---
+
+### ⚛️ Frontend (React)
+- Register & Login UI
+- Display logged-in user email
+- Admin panel toggle
+- Task management UI
+- Logout button
+- Success / error toast messages
+
+---
+
+### 📘 API Documentation
+Swagger UI available at:
 
 ## 🧱 Tech Stack
 
